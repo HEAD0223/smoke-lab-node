@@ -2,7 +2,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import fs from 'fs';
-import https from 'https';
+// import https from 'https';
 import mongoose from 'mongoose';
 
 import {
@@ -35,18 +35,19 @@ const sslOptions = {
 	cert: fs.readFileSync('./certificates/fullchain.pem'),
 };
 
-const server = https.createServer(sslOptions, app);
+// Use the `https` module to create the server
+// const server = https.createServer(sslOptions, app);
 
-server.listen(443, (err) => {
-	if (err) {
-		return console.log(err);
-	}
-	console.log(`Server running on port 443 (HTTPS)`);
-});
-
-// app.listen(8080, (err) => {
+// server.listen(443, (err) => {
 // 	if (err) {
 // 		return console.log(err);
 // 	}
-// 	console.log(`Server running on port 8080`);
+// 	console.log(`Server running on port 443 (HTTPS)`);
 // });
+
+app.listen(8080, (err) => {
+	if (err) {
+		return console.log(err);
+	}
+	console.log(`Server running on port 8080`);
+});

@@ -1,4 +1,4 @@
-# Smoke Lab (**Server**) · Complete
+# Smoke Lab (**Server**)
 
 ![Server](https://img.shields.io/badge/Server-Smoke_Lab-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Complete-yellow)

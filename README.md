@@ -5,7 +5,7 @@
 ![Self Development](https://img.shields.io/badge/Project-Self_Development-red)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This project represents the server-side code for a Smoke Lab store system. The server is built using Node.js and utilizes various libraries for functionality.
+This project represents the server-side code for the Smoke Lab store system. The server is built using Node.js, leveraging various libraries for enhanced functionality.
 
 ## Table of Contents
 
